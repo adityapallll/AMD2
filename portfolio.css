@@ -4,9 +4,7 @@
 }
 
 body {
-    background: url(https://i.redd.it/54q1wuddlex51.png);
-    background-size: cover;
-    background-position: absolute;
+    background: black;
 }
 
 .top {
@@ -15,25 +13,29 @@ body {
     width: 100%;
 }
 
+.space {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 .h {
     text-decoration: none;
     color: #fff;
+    font-weight: 700;
 
 }
 
 .c {
     display: inline;
-    align-items: baseline;
     color: white;
     text-align: center;
     font-family: cinzel;
 }
 
-h1 {
+p {
     text-align: center;
     align-items: center;
     color: #fff;
-    font-size: 4rem;
     margin-top: 2%;
 }
 
@@ -41,12 +43,33 @@ h1 {
     display: grid;
     grid-auto-flow: column;
     column-gap: 10em;
-    align-items: baseline;
 }
 
 .col2 {
-    align-items: baseline;
     display: flex;
     justify-content: space-around;
-    padding-top: 0.7%;
+    padding-top: 2%;
+}
+
+.section {
+    background-color: black;
+}
+
+.footer {
+    height: 100px;
+    background: #303036;
+
+}
+
+.footer-content {
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin-top: 10%;
+    text-decoration: none;
+    color: #686868;
 }
