@@ -144,7 +144,7 @@ p {
     padding-bottom: 4%;
     color: #fff;
     text-align: center;
-    animation: bottom 10s ease-out;
+    animation: bottom 4s ease-out;
 }
 
 @keyframes bottom {
