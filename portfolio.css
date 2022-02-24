@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://i.redd.it/54q1wuddlex51.png);
+    background-size: cover;
+    background-position: absolute;
+}
+
+.top {
+    background-color: black;
+    height: 7.5vh;
+    width: 100%;
+}
+
+.h {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.c {
+    display: inline;
+    align-items: baseline;
+    color: white;
+    text-align: center;
+    font-family: cinzel;
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 2%;
+}
+
+.column {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10em;
+    align-items: baseline;
+}
+
+.col2 {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.7%;
+}
