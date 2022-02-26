@@ -8,7 +8,19 @@ body {
     background-size: cover;
     background-position: absolute;
     height: 100%;
+    animation: opac 2s ease;
 }
+
+@keyframes opac {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .top {
     background-color: black;
