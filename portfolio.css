@@ -16,6 +16,20 @@ body {
 .space {
     margin-top: 1%;
     margin-bottom: 1%;
+    animation: large 2s ease;
+}
+
+@keyframes large {
+    0% {
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    100% {
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+
 }
 
 .h {
@@ -49,6 +63,20 @@ p {
     display: flex;
     justify-content: space-around;
     padding-top: 2%;
+}
+.col-8 {
+    animation: expand 2s ease;
+}
+
+@keyframes expand {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
 }
 
 .section {
