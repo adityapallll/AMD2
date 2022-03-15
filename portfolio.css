@@ -21,6 +21,7 @@
 
 body {
     background: black;
+    overflow-x: hidden;
 }
 
 .top {
@@ -34,7 +35,7 @@ body {
     margin-bottom: 1%;
     animation: large 1.5s ease-in-out;
     width: 100%;
-    overflow: hidden;
+  
 }
 
 @keyframes large {
